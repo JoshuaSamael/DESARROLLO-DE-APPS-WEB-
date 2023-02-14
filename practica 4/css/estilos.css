@@ -1,0 +1,29 @@
+section{
+    background-color: gray;
+    margin: 20px;
+    padding: 20px;
+
+}
+
+#sección1{
+    color: #ffffff;
+}
+
+.all-browsers{
+    margin: 0;
+    padding: 5px;
+    background-color: lightgray;
+}
+
+.browser {
+   background: white;
+}
+
+aside {
+    width: 30%;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: right;
+    font-style: italic;
+    background-color: aqua;
+}

@@ -1,4 +1,9 @@
 body{
     font-family: 'Montserrat', sans-serif;
+    
+}
+
+.textoalineado{
+    word-wrap: break-word;
 }
 

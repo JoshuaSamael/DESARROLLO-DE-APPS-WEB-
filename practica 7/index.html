@@ -68,8 +68,42 @@
             html += "</ul>";
 
             lista.innerHTML = html;
-           
-        
+
+            let arreglo = [1,2,3];
+            arreglo[6];
+            console.log(arreglo[4]);
+
+            const frutas = ["Banana","Orange","Apple","Mango"];
+            frutas.sort();
+            console.log(frutas);
+
+            const numeros = [33,2,8];
+            numeros.sort();
+            console.log(numeros);
+
+            var apellido = "Pérez";
+            //ambito global
+
+            let muestraApellido = () => {
+                let apellido = "Gonzáles";
+                let rfc = "hrt546372";
+                console.log("Dentro de la función: " + apellido);
+            }
+
+            console.log("Fuera: " + apellido);
+
+            muestraApellido();
+
+            const PI = 3.1416;
+            //PI = 2.2;
+
+            let pais = "MX";
+            (
+                () => {
+                    console.log(pais);
+                })();
+                //Función anónima
+                        
 
 
     </script>
